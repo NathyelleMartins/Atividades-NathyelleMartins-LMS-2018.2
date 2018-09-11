@@ -1,9 +1,12 @@
 #titulo-pag{ /* Seletor por Id*/
+    font-size: 30px;
     margin: 0;
     text-align: left;
     font-family: fantasy
 }
-
+h1{
+    font-size: 20px;
+}
 /*menu*/
 #menu ul {
     font-family:monospace;
