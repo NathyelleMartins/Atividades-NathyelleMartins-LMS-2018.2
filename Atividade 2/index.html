@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Livros Livres</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body style="background-color: rgb(0,128,128)">
+    <header>
+        <h1 id="titulo-pag">
+            Livros Livres 
+        </h1>     
+    </header>
+
+    <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sinopses.html">Sinopses</a></li>
+                <li><a href="sobre-mim.html">Sobre mim</a></li>
+            </ul> <br>
+        </nav>
+        
+    <article class="article1">
+        <header>
+            <h1>
+                Sinopse "A menina que roubava Livros".
+            </h1>
+        </header>
+            <p>
+                ”Ao perceber que a pequena Liesel Meminger, uma ladra de livros, lhe escapa,<br>
+                a Morte afeiçoa-se à menina e rastreia suas pegadas de 1939 a 1943. <br>
+                A mãe comunista, perseguida pelo nazismo, envia Liesel e o irmão para o subúrbio pobre de uma cidade alemã,<br>
+                onde um casal se dispõe a adotá-los por dinheiro. <br>
+                O garoto morre no trajeto e é enterrado por um coveiro que deixa cair um livro na neve. <br>
+                É o primeiro de uma série que a menina vai surrupiar ao longo dos anos. […]"<br>
+            </p> 
+    </article>
+    <br>
+    
+    <article class="article2">
+        <header>
+            <h1 id="h1-article2">
+                Você só precisa de 2 motivos para ler livros:
+            </h1>
+        </header>
+            <p id="parag-article2">
+                Os livros são uma ótima ferramenta para desenvolver a sua mente.<br>
+                Veja como a leitura pode melhorar o seu cérebro utilizando os clássicos da literatura.
+            </p>   
+            
+        <section>
+            <h3 id="h3-section1">
+                1. Aumentar o vocabulário
+            </h3>    
+            <p id="paragrafo1">
+                Ao ler os clássicos, você vai encontrar muitas palavras que não fazem parte do seu cotidiano. <br>
+                Aprender novas palavras ajuda a enriquecer o seu vocabulário. Ter um amplo vocabulário é como <br>
+                ter um grande arsenal de palavras. Isso permite que você se expresse de maneira mais eloquente.<br>
+                Desenvolvendo essa habilidade você será capaz de se comunicar com precisão e criar uma percepção de mundo inteligente.<br>
+            </p> 
+        </section>    
+        <section>
+            <h3 id="h3-section2">
+                2. Melhorar a escrita
+            </h3>
+            <p id="paragrafo2">
+                    Ler os clássicos da literatura é a maneira mais fácil de melhorar a sua escrita.<br>
+                    Durante a leitura você acaba absorvendo a gramática e o estilo do autor.<br>
+                    Isso contribui para o desenvolvimento da sua escrita melhorando a concordância e gramática.
+            </p>
+        </section>
+        </article>
+
+    <article class="article3"> <!--nome da classe alterado-->
+        
+        <svg width="100" height="100" style="border: 1px white">
+            <circle cx="10" cy="10" r="10"
+                stroke="white" stroke-width="1" fill"white" />
+
+            <line x1="10" y1="20" x2="10" y2="50" 
+                style="stroke:white; stroke-width:2" />
+
+            <line x1="10" y1="20" x2="0" y2="50" 
+                style="stroke:white; stroke-width:2" />
+
+            <line x1="10" y1="20" x2="20" y2="50" 
+                style="stroke:white; stroke-width:2" />
+
+            <line x1="10" y1="50" x2="20" y2="90" 
+                style="stroke:white; stroke-width:2" />
+                
+            <line x1="10" y1="50" x2="0" y2="90" 
+                style="stroke:white; stroke-width:2"/>
+        </svg><br>
+    </article>
+
+    <article class="article4"> <!--nome da classe alterado-->
+            <header>
+                <h1 id="h1-article4">Músicas para ajudar na leitura.</h1>
+            </header>
+            <p id="parag-article4">Músicas podem ajudar na concentração na hora da leitura. <br>
+                        Algumas podem ser relaxantes, outras agitadas.<br>
+                        <strong>Experimente:</strong>
+            </p>
+            <section class="section-audio">
+                <audio id="audio" controls="controls">
+                    <source src="audio/Eternal Youth.mp3" type="audio/mp3" />
+                            navegador não suporta o audio.
+                </audio>
+            </section>  
+            <section class="videoYoutube">
+                <h3 id="h3-trailer">Assista ao trailer "A menina que roubava livros"</h3>
+                <iframe id="video" width="560" height="315"
+                    src="https://www.youtube.com/embed/J24AlOYHpVU">
+                        navegador nao suporta o video.
+                </iframe>
+            </section>
+        </article>
+     
+    <article class="article5">
+            <header id="formulario">
+                <h3 id="header-form">Preencha os campos a seguir:</h3>
+            </header>
+            <form action="https://www.w3schools.com/action_page.php" method="GET" id="formulario">
+                Primeiro nome:
+                    <input type="text" maxlength="15" > <br>
+                Último nome:
+                    <input type="text"  readonly placeholder="Sobrenome"> <br>
+                Digite um número:
+                    <input type="number" min="25000" max="30000"> <br>
+                Sexo:
+                    <input 
+                    
+                    type="radio" name="sexo" value="masculino">Masculino 
+                    <input type="radio" name="sexo" value="feminino">Feminino <br>
+                Você tem livros?<br>
+                    <input type="checkbox" name="tem-livros" value="sim"> Sim <br>
+                    <input type="checkbox" name="poucos-livros" value="poucos"> Poucos <br>
+                    <input type="checkbox" name="não-tem-livros" value="não"> Não <br>
+                <input type="submit" value="Enviar">
+            </form>            
+    </article> 
+       
+    
+</body>
+
+</html>
