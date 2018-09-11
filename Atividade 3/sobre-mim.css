@@ -1,0 +1,64 @@
+#titulo-pag{
+    text-align: left;
+    font-family: fantasy;
+}
+
+#menu ul {
+    font-family:monospace;
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+
+#menu ul li { 
+    display: inline; 
+}
+
+#menu ul li a {
+    padding: 5px 15px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:5px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid black;
+}
+
+.article1{
+    border-style: solid;
+    border-color: white;
+    color: white;
+    margin-bottom: 2px;
+}
+#imagem{
+    border: solid 1px white;
+    width: 130px;
+    height: 200px;
+}
+#h1, .article1{
+    text-align: center;
+    color: white;
+}
+p, article1{
+    color: white;
+    padding: 20px;
+}
+#facebook{
+    padding: 15px;
+    background-color:#EDEDED;
+    font-family: "Haettenschweiler";
+    color: #3b5998;
+    font-size: 20px;
+}
+#imagem-fb{
+    width: 25px;
+    height: 25px;
+}
