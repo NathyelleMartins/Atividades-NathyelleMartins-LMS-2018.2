@@ -1,7 +1,10 @@
-#titulo-pag{
+#titulo-pag{ /* Seletor por Id*/
+    margin: 0;
+    text-align: left;
     font-family: fantasy
 }
 
+/*menu*/
 #menu ul {
     font-family:monospace;
     padding:0px;
@@ -9,11 +12,9 @@
     background-color:#EDEDED;
     list-style:none;
 }
-
 #menu ul li { 
     display: inline; 
 }
-
 #menu ul li a {
     padding: 5px 15px;
     display: inline-block;
@@ -24,28 +25,29 @@
     text-decoration: none;
     border-bottom:5px solid #EDEDED;
 }
-
 #menu ul li a:hover {
     background-color:#D6D6D6;
     color: #6D6D6D;
     border-bottom:3px solid black;
 }
+/*Fim do menu*/
 
-.article1{
+h1{  /* Seletor por Elemento*/
+    color: black;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/*Articles*/
+.article1{ /* Seletor por Classe*/
     border-style: solid;
     text-align: center;
     color: white;
+    border-width: 2px 2px 2px 2px;
 
-}
-
-#cor-black{
-    color: black;
-
-}
-
-#parag-white{
-    text-align: center;
-    color: white;
 }
 
 .article2{
@@ -53,13 +55,15 @@
     border-color: white;
     border-width: 2px 2px 2px 2px;
 }
-
-#h1-titulo{
+#h1-article2{
+    text-align: center;
+}
+#parag-article2{
     text-align: center;
     font-family: arial;
+    color: white;
 }
-
-#h3-texto{
+#h3-section1{
     position: relative;
     left: 10px;
     color: black;
@@ -71,34 +75,25 @@
     font-family: arial;
     color: white;
 }
+#h3-section2{
+    position: relative;
+    left: 10px;
+    color: black;
+    font-family: Arial;
+}
 #paragrafo2{
     position: relative;
     left: 20px;
     font-family: arial;
     color: white;
 }
-#h3-texto2{
-    position: relative;
-    left: 10px;
-    color: black;
-    font-family: Arial;
-}
+
 .article3{
     padding: 15px;
     margin-top: 20px;
     border-style: solid;
     border-color: white;
     border-width: 2px 2px 2px 2px;
-}
-#parag{
-    margin-left: 20px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#mu-header{
-    margin-left: 20px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .article4{
@@ -108,20 +103,27 @@
     border-color: white;
     border-width: 2px 2px 2px 2px;
 }
-#titulo-article4, .article4{
-    color: white;
-    font-family: Arial, 'Helvetica', sans-serif;
+#h1-article4{
+    text-align: center;
 }
-
+#parag-article4{
+    text-align: center;
+}
+#audio{
+    position: relative;
+    left: 38%;
+}
 #video{
-    margin-left: 36.5%;
+    position: relative;
+    left: 38%;
+    border: none;
     width: 340px;
     height: 220px;
 }
-#trailer{
-    font-family: Arial, Helvetica, sans-serif;
+#h3-trailer{
     text-align: center;
-    color: white;
+    font-family: Arial;
+    color: black;
 }
 
 .article5{
@@ -131,12 +133,12 @@
     border-color: white;
     border-width: 2px 2px 2px 2px;
 }
+/*Fim dos Articles*/
 #header-form{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-family: Arial;
 }
-
 #formulario{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
