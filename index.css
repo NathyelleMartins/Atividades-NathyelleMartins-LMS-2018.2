@@ -3,3 +3,7 @@
     border-style: solid 2px 2px 3px 3px;
     border-color: black;
 }
+body{
+    display: block;
+    list-style-type: none;
+}
