@@ -43,18 +43,22 @@ p{
 }
 
 /*Articles*/
-.article1{ /* Seletor por Classe*/
+.minha-classe{ /* Seletor por Classe*/
+    margin: 40px;
+    padding: 20px;
     border-style: solid;
     text-align: center;
     color: white;
-    border-width: 2px 2px 2px 2px;
+    border-width: 5px;
 
 }
 
 .article2{
-    border-style: solid;
-    border-color: white;
-    border-width: 2px 2px 2px 2px;
+    margin: 40px;
+    padding: 20px;
+    border-style: dotted;
+    border-color: #b082fb;
+    border-width: 2vh;
 }
 #h1-article2{
     text-align: center;
@@ -76,6 +80,9 @@ p{
     font-family: arial;
     color: white;
 }
+h3, .section1, .section2{ /* Seletor aninhado*/
+    font-size: 15px;
+}
 #h3-section2{
     position: relative;
     left: 10px;
@@ -90,19 +97,37 @@ p{
 }
 
 .article3{
-    padding: 15px;
+    margin: 40px;
+    padding: 20px;
+    height: 100px;
+    padding: 15px; 
     margin-top: 20px;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px 2px 2px 2px;
+    border-style: dashed;
+    border-color: #232323;
+    border-width: 1vw;
 }
 
+.gradiente {
+    position: relative;
+    bottom: 110px;
+    left: 30px;
+    width : 200px ;
+    height: 100px ;
+    /* background: gradiente linear (para o canto inferior direito, rosa, azul); */
+    background: linear-gradient( 135deg, #ffffff, #d0d0d0, #a2a2a2, #777777 );
+}
+#gradiente1, .gradiente{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 15px;
+    text-align: center;
+}
 .article4{
-    padding: 15px;
+    margin: 40px;
+    padding: 20px;
     margin-top: 20px;
     border-style: solid;
     border-color: white;
-    border-width: 2px 2px 2px 2px;
+    border-width: 2mm;
 }
 #h1-article4{
     text-align: center;
@@ -114,6 +139,7 @@ p{
     position: relative;
     left: 38%;
 }
+
 #video{
     position: relative;
     left: 38%;
@@ -128,14 +154,15 @@ p{
 }
 
 .article5{
-    padding: 15px;
+    margin: 40px;
+    padding: 20px;
     margin-top: 20px;
     border-style: solid;
     border-color: white;
     border-width: 2px 2px 2px 2px;
 }
 /*Fim dos Articles*/
-#header-form{
+.header-form{
     color: black;
     font-family: Arial;
 }
