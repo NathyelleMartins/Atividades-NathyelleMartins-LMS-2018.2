@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.h1-header{
+    padding-left: 15px;
+    margin-top: 15px;
+    color: #555555;
+    font-size: 37px;
+    font-family: Cambria;
+}
+#span-header{
+    color: #4CAF50;
+    font-size: 37px;
+    font-family: Cambria;
+}
+p{
+    color: black;
+}
+/*Menu superior*/
+.nav-superior{
+    background-color: #4CAF50;
+    overflow: hidden;
+}
+.nav-superior ul{ /* Atribui a todas as <ul> um list-style-type:none; */
+    list-style-type: none;
+}
+.nav-superior ul li a{ /* Atribui a todas as <ul> <li> <a> esse padrão */
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    display:block;
+    float: left;
+    padding: 5px;
+}
+
+/* Dropdown*/
+.dropdown{
+    height: 100%;
+    float: left;
+    color: #F1F1F1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.dropdown .dropdown-button{
+    height: 30px;
+    padding: 20px;
+}
+.dropdown .dropdown-content{
+    padding: 10px;
+    color: black;
+    position: absolute;
+    background-color: #F1F1F1;
+    display: none; 
+}
+.nav-superior ul li a:hover, .dropdown .dropdown-button:hover{
+    background-color: #FFFFFF;  
+    cursor: pointer;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.layout{
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+.menu-lateral {
+    background-color: white;
+    float: left;
+    width: 18%;
+}
+.menu-lateral ul{
+    border-style: groove;
+    border-color: #DEDEDE;
+    list-style-type: none;
+}
+.menu-lateral ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    display: block;
+    padding: 10px;
+}
+
+.menu-lateral ul li a:hover{
+    background-color: #CCCCCC;
+}
+
