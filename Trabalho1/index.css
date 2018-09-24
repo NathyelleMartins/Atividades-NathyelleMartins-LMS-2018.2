@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navegador-superior{
+    background-color: rgb(200,200,200);
+    overflow: hidden;
+}
+.navegador-superior ul{
+    list-style-type: none;
+}
+.navegador-superior ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    float: left;
+    padding: 5px;
+}
+.dropdown{
+    float: left;
+}
+.dropdown .dropdown-button{
+    padding: 5px;
+}
+.dropdown .dropdown-content{
+    position: absolute;
+    background-color: rgb(150, 150, 150);
+    display: none; /* Faz o bicho desaparecer por padrão */
+}
+.navegador-superior ul li a:hover, .dropdown .dropdown-button:hover{
+    background-color: rgb(100,100,100);   
+    cursor: pointer; /* Cursor do Mickey */
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropdown-button{
+    background-color: rgb(100,100,100);   
+}
+/* .dropdown-button:hover + .dropdown-content{
+    display: block;
+} */

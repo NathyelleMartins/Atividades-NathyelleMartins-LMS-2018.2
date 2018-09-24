@@ -6,59 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .navegador-superior{
-            background-color: rgb(200,200,200);
-            overflow: hidden;
-        }
-        .navegador-superior ul{
-            list-style-type: none;
-        }
-        .navegador-superior ul li a{
-            text-decoration: none;
-            color: black;
-            display: block;
-            float: left;
-            padding: 5px;
-        }
-        .dropdown{
-            float: left;
-        }
-        .dropdown .dropdown-button{
-            padding: 5px;
-        }
-        .dropdown .dropdown-content{
-            position: absolute;
-            background-color: rgb(150, 150, 150);
-            display: none; /* Faz o bicho desaparecer por padrão */
-        }
-        .navegador-superior ul li a:hover, .dropdown .dropdown-button:hover{
-            background-color: rgb(100,100,100);   
-            cursor: pointer; /* Cursor do Mickey */
-        }
-        .dropdown:hover .dropdown-content{
-            display: block;
-        }
-        .dropdown:hover .dropdown-button{
-            background-color: rgb(100,100,100);   
-        }
-        /* .dropdown-button:hover + .dropdown-content{
-            display: block;
-        } */
-        
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <nav class="navegador-superior">
         <ul>
-            <li>
+            <!--<li>
                 <a href="">HTML</a>
-            </li>
+            </li>-->
             <li>
                 <div class="dropdown">
                     <div class="dropdown-button">
@@ -71,11 +27,22 @@
                             <li><a href="">Link 3</a></li>
                         </ul>
                     </div>
+                    <div class="dropdown-button">
+                        HTML
+                    </div>
+                    <div class="dropdown-content">
+                        <ul class="menu-dropdown">
+                            <li><a href="">Link 1</a></li>
+                            <li><a href="">Link 2</a></li>
+                            <li><a href="">Link 3</a></li>
+                        </ul>
+                    </div>
                 </div>
             </li>
-            <li>
+            
+            <!--<li>
                 <a href="">JS</a>
-            </li>
+            </li>-->
         </ul>
     </nav>
     <div class="container">
