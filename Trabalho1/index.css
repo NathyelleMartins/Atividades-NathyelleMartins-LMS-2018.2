@@ -7,7 +7,6 @@ ul {
     margin-bottom: 30px;
     overflow: hidden;
 }
-
 nav{
     height: 54px;
     background-color: #DDDDDD;
@@ -24,6 +23,28 @@ nav{
     float: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
+    border: 1px solid white;            
+    overflow: visible;
+    max-height: 0px;
+    transition: max-height 1850ms;
+}
+.drop-downs:hover{  
+    max-height: 150px;
+}
+
+.links {
+    letter-spacing: 3px;
+}
+.drop-downs .links {
+    background-color: #DDDDDD;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+}
+.drop-downs:hover .links{  
+    background-color: #CCCCCC;
+    color: black;
 }
 
 .content {
@@ -32,10 +53,13 @@ nav{
     height: 40px;
     width: 105px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 1px;
     padding-bottom: 40px;
     position: relative;
     float: left;
+}
+.drop-downs:hover .content {
+    display: block;
 }
 
 .references {
@@ -48,23 +72,4 @@ nav{
 }
 .references:hover {
     background-color: rgb(195, 195, 195);
-}
-
-.links {
-    letter-spacing: 3px;
-}
-
-.drop-downs .links {
-    background-color: #DDDDDD;
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 16px;
-}
-.drop-downs:hover .links{  
-    background-color: #CCCCCC;
-    color: black;
-}
-.drop-downs:hover .content {
-    display: block;
 }
