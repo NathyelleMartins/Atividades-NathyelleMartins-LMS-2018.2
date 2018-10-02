@@ -2,10 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-ul {
+ul{
     list-style-type:none;
-    margin-bottom: 30px;
-    overflow: hidden;
+    overflow: hidden;   
 }
 nav{
     height: 54px;
@@ -13,6 +12,7 @@ nav{
 }
 
 .navegador-lateral {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.45);
     overflow: hidden;
     display: block;
     background-color: white;
@@ -23,13 +23,13 @@ nav{
     float: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
-    border: 1px solid white;            
+    border: 1px solid #DDDDDD;            
     overflow: visible;
     max-height: 0px;
-    transition: max-height 1850ms;
+    transition: max-height 2s;
 }
 .drop-downs:hover{  
-    max-height: 150px;
+    max-height: 200px;
 }
 
 .links {
@@ -40,7 +40,7 @@ nav{
     color: black;
     text-decoration: none;
     display: block;
-    padding: 16px;
+    padding: 15px;
 }
 .drop-downs:hover .links{  
     background-color: #CCCCCC;
@@ -48,13 +48,13 @@ nav{
 }
 
 .content {
-    display: none;
+    display: inline;
     background-color: #DDDDDD;
     height: 40px;
-    width: 105px;
+    width: 180px;
     padding-top: 10px;
     padding-left: 1px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
     position: relative;
     float: left;
 }
@@ -66,10 +66,21 @@ nav{
     text-decoration: none;
     color: black;
     display: block;
-    padding: 0px;
+    padding: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
 }
 .references:hover {
     background-color: rgb(195, 195, 195);
+}
+#lateral ul li a{
+    list-style-type: none;
+}
+
+.lateral{
+    overflow: scroll;
+    height: 100vw;
+    margin-top: 10px;
+    width:20%;
+    position: relative;
 }
