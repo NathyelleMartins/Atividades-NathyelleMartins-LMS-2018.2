@@ -113,15 +113,10 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .logo{
+    padding:15px;
     background-color: #CCCCCC;
 }
 
-.img{
-    float: left;
-    position: relative;
-    left: 25vw;
-    top: 80px;
-}
 @keyframes efeito{
     0%{
         transform: translate(0, 0) rotate(0deg);
@@ -137,6 +132,10 @@ p{
     }
 }
 .img{
+    float: left;
+    position: relative;
+    left: 25vw;
+    top: 80px;
     animation-name: efeito;
     animation-duration: 4s;
     animation-iteration-count: infinite;
