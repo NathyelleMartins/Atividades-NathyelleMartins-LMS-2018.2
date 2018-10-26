@@ -3,6 +3,61 @@
 }
 
 #titulo{
-    color: black;
-    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 8px;
+    width: 99,9%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size:  20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px white;
 }
+
+.menu{
+    width: 15vw;
+    height: 100vw;
+    background-color: rgb(54,54,54);
+    overflow: hidden;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#span-menu{
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+    
+
+}
+
+/*
+.dropdown{
+    float: left;
+}
+.dropdown .dropdown-botão{
+    padding: 5px;
+    color: white;
+}
+.dropdown .dropdown-conteudo{
+    position: absolute;
+    display: none;
+}
+.menu ul li a:hover, .dropdown .dropdown-botao:hover{
+    background-color: rgb(100,100,100);
+}
+.dropdown:hover .dropdown-conteudo{
+    display: block;
+}
+.dropdown:hover .dropdown-botao{
+    background-color: rgb(100,100,100);   
+}*/
+
+
